@@ -1,0 +1,20 @@
+{
+  "name": "task-js-tools-wdio-jestmocha--chai",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@wdio/cli": "^10.2.0",
+    "@wdio/local-runner": "^10.2.0",
+    "@wdio/mocha-framework": "^10.2.0",
+    "@wdio/spec-reporter": "^10.2.0",
+    "chai": "^6.3.0"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
