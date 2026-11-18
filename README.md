@@ -1,15 +1,20 @@
-# task-js-tools-wdio-jestmocha--chai
+# Task-JS-Tools-WDIO-JestMocha--Chai
 
-To install dependencies:
+Web automation testing framework built with WebdriverIO, Mocha, and Chai.
+
+Includes:
+- Page Object Model (POM).
+- Automated UI tests.
+- Chai Expect, Assert, and Should interfaces.
+
+## Installation
 
 ```bash
 bun install
 ```
 
-To run:
+## Run tests
 
 ```bash
-bun run index.ts
+bun run wdio
 ```
-
-This project was created using `bun init` in bun v1.4.2. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
